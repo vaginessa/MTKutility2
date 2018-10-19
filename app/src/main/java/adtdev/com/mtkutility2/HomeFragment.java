@@ -27,12 +27,13 @@ import android.view.ViewGroup;
 
 public class HomeFragment extends Fragment {
 
-    static myLibrary myLib;
+    private myLibrary myLib;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         myLib = Main.myLib;
+        myLib.logWrite(132, "HomeFragment.onCreateView()");
 
         View rootView = inflater.inflate(R.layout.home, container, false);
 

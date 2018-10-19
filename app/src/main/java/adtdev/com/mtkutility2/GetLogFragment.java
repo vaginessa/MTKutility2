@@ -26,12 +26,13 @@ import android.view.ViewGroup;
 
 public class GetLogFragment extends Fragment {
 
-    static myLibrary myLib;
+    private myLibrary myLib;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         myLib = Main.myLib;
+        myLib.logWrite(132, "GetLogFragment.onCreateView()");
 
         View rootView = inflater.inflate(R.layout.getlog, container, false);
 

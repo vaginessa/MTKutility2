@@ -26,16 +26,16 @@ import android.view.ViewGroup;
 
 public class AboutFragment extends Fragment {
 
-    static myLibrary myLib;
+    private myLibrary myLib;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         myLib = Main.myLib;
+        myLib.logWrite(132, "AboutFragment.onCreateView()");
 
         View rootView = inflater.inflate(R.layout.about, container, false);
 
-//        myLib.showToast("AboutFragment");
         return rootView;
     }
 }

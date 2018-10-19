@@ -1,12 +1,21 @@
 <resources>
     <string name="app_name">MTKutility2</string>
+    <string name="nowrite">MTKutility2 needs write internal storage permission</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="noback">use exit in menu to close app</string>
+
+    <string name="crashLog">MTKutility2 failed - please send the trace file. Thank You.</string>
+    <string name="errortext">The attached log file contains information about your phone, a log
+        of the code executed before MTKutility2 failed, and a system trace report for the failure.
+        \nThanks for sending this.\nAl Tauber</string>
+    <string name="emailtext">The attached log file contains information about your phone, GPS logger,
+        and a log of the code executed. Please add any comments you would like to direct to me and
+        indicate if you would like a response to the email. Thanks for sending this.
+        \nAl Tauber</string>
+    <string name="myEmail">adt.androidapps@gmail.com</string>
+    <string name="emailMsg">Pick an Email provider</string>
 
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="setGPS">set Logger</string>
@@ -42,4 +51,26 @@
     <string name="nav_help">help</string>
     <string name="nav_about">about app</string>
     <string name="nav_exit">exit app</string>
+
+    <string name="NMEAsettings"></string>
+    <string name="appVersion">app version</string>
+
+    <!-- AGPS server -->
+    <string name="agps_server">AGPS server</string>
+
+    <string name="ftp_ip">FTP Host</string>
+    <string name="ftp_ip_summary"></string>
+
+    <string name="ftp_port">FTP Port</string>
+    <string name="ftp_port_summary"></string>
+
+    <string name="username">User name</string>
+    <string name="username_summary"></string>
+
+    <string name="pswd">Password</string>
+    <string name="pswd_summary"></string>
+
+    <string name="epo_file">File name</string>
+    <string name="epo_file_summary"></string>
+
 </resources>
